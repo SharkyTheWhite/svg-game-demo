@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GameDemo from "./components/GameDemo.vue";
+import GameDemo from './components/GameDemo.vue'
 </script>
 
 <template>
@@ -9,6 +9,4 @@ import GameDemo from "./components/GameDemo.vue";
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
