@@ -25,7 +25,7 @@ jobs:
           pnpm install --frozen-lockfile
       - name: Vite Build
         run:
-          npm run vite build --base /svg-game-demo
+          npm run build -- --base /svg-game-demo
       - name: Force-Push to gh-pages
         shell: bash
         run: |
