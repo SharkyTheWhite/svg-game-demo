@@ -33,7 +33,8 @@
 import { ref } from 'vue'
 
 interface RumbleActuator extends GamepadHapticActuator {
-  playEffect(type: string, params): Promise<boolean>
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  playEffect(type: string, params: any): Promise<boolean>
 }
 
 interface ExtraGamepad extends Gamepad {
